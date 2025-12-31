@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayesh Lomate - Ethical Hacker & Web Pentester</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="terminal-prompt">root@jayesh:~$</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="matrix-bg" id="matrixBg"></div>
+        <div class="container hero-content">
+            <div class="name-section">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="JAYESH LOMATE">JAYESH LOMATE</h1>
+                </div>
+                <div class="title-bar">
+                    <span class="bracket">[</span>
+                    <span class="professional-title">ETHICAL HACKER & WEB PENTESTER</span>
+                    <span class="bracket">]</span>
+                </div>
+            </div>
+            <div class="typing-container">
+                <p class="typing-text">
+                    <span class="prompt">&gt;</span> 
+                    <span id="typedText"></span>
+                    <span class="cursor">|</span>
+                </p>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i> Hire Me
+                </a>
+                <a href="#projects" class="btn btn-secondary">
+                    <i class="fas fa-folder-open"></i> View Work
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="terminal-prompt">~$</span> whoami
+            </h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame" id="imageFrame">
+                        <div class="scan-line"></div>
+                        <i class="fas fa-user-secret profile-icon" id="profileIcon"></i>
+                        <img src="profile.jpg" alt="Jayesh Lomate" class="profile-photo" id="profilePhoto">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">jayesh@security:</span><span class="path">~$</span> cat about.txt</p>
+                            <p>Hello! I'm <strong>Jayesh Lomate</strong>, a passionate <span class="highlight">Ethical Hacker</span> and <span class="highlight">Web Penetration Tester</span>. I specialize in identifying vulnerabilities and securing web applications against cyber threats.</p>
+                            <p>With a deep understanding of security protocols, OWASP Top 10, and advanced penetration testing techniques, I help organizations protect their digital assets.</p>
+                            <p>My mission is to make the internet a safer place, one vulnerability at a time.</p>
+                            <p class="blink-text"><span class="prompt">jayesh@security:</span><span class="path">~$</span> <span class="cursor-line">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="terminal-prompt">~$</span> ls skills/
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Penetration Testing</h3>
+                    <p>Web App Security, Network Pentesting, Vulnerability Assessment</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Bug Bounty Hunting</h3>
+                    <p>XSS, SQLi, CSRF, IDOR, Authentication Bypass</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, PHP, Python, Node.js</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="88"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>Tools & Frameworks</h3>
+                    <p>Burp Suite, OWASP ZAP, Metasploit, Nmap, Wireshark</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="92"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3>Operating Systems</h3>
+                    <p>Kali Linux, Parrot OS, Windows, Unix/Linux Administration</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="87"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Network Security</h3>
+                    <p>Firewall Configuration, IDS/IPS, VPN, SSL/TLS</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="83"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="terminal-prompt">~$</span> cat achievements.log
+            </h2>
+            <div class="achievements-content">
+                <div class="achievement-card tryhackme-card">
+                    <div class="card-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>TryHackMe Profile</h3>
+                    </div>
+                    <div class="tryhackme-badge">
+                        <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4115368" 
+                                style='border:none; width: 100%; height: 100px; display: block;' 
+                                title="TryHackMe Profile Badge"
+                                scrolling="no">
+                        </iframe>
+                    </div>
+                    <p class="badge-description">
+                        Active member of the TryHackMe community, continuously learning and solving cybersecurity challenges.
+                    </p>
+                </div>
+
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <i class="fas fa-flag-checkered"></i>
+                        <div class="stat-number" data-target="150">0</div>
+                        <p>CTF Challenges</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-certificate"></i>
+                        <div class="stat-number" data-target="10">0</div>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-project-diagram"></i>
+                        <div class="stat-number" data-target="50">0</div>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-box">
+                        <i class="fas fa-search"></i>
+                        <div class="stat-number" data-target="200">0</div>
+                        <p>Vulnerabilities Found</p>
+                    </div>
+                </div>
+
+                <!-- 3D Badge Gallery -->
+                <div class="badge-gallery-section">
+                    <div class="gallery-header">
+                        <i class="fas fa-award"></i>
+                        <h3>My Badges Collection</h3>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel-3d" id="badgeCarousel">
+                            <div class="carousel-item">
+                                <img src="badges/05847bfd407ade733d81f2b09a23dd0b.png" alt="Badge 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="badges/0bf92eb1da0f35ed8e09d215b94454a1.png" alt="Badge 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="badges/31f2e5cd99d20c1f6577b3140f052bac.png" alt="Badge 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="badges/63287f918e21defff523317abf2ff313.png" alt="Badge 4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="badges/721387231b4f0a4517b630f82f83e4aa.png" alt="Badge 5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="badges/a8ee18bb356d2e4606e4d03e1ec103a2.png" alt="Badge 6">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="badges/ded41df098f2386cd4e3baac549d18a4.png" alt="Badge 7">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="badges/efd68b61135089374015224561351151.png" alt="Badge 8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev" id="prevBtn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-btn next" id="nextBtn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="carousel-indicator" id="carouselIndicator">1 / 8</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="terminal-prompt">~$</span> ls projects/
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Application Security Assessment</h3>
+                        <p>Comprehensive security audit of e-commerce platform identifying critical vulnerabilities including SQL injection and XSS.</p>
+                        <div class="project-tags">
+                            <span class="tag">OWASP</span>
+                            <span class="tag">SQLi</span>
+                            <span class="tag">XSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Network Penetration Testing</h3>
+                        <p>Full scope network penetration test for corporate infrastructure, uncovering misconfigurations and weak access controls.</p>
+                        <div class="project-tags">
+                            <span class="tag">Nmap</span>
+                            <span class="tag">Metasploit</span>
+                            <span class="tag">Network</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>API Security Testing</h3>
+                        <p>RESTful API penetration testing revealing authentication bypass and sensitive data exposure vulnerabilities.</p>
+                        <div class="project-tags">
+                            <span class="tag">API</span>
+                            <span class="tag">Postman</span>
+                            <span class="tag">JWT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Custom Security Tools</h3>
+                        <p>Development of automated vulnerability scanners and custom exploitation frameworks for penetration testing.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Scripts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="terminal-prompt">~$</span> ./contact.sh
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">jayesh@security:</span><span class="path">~$</span> cat contact.txt</p>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>jayesh.lomate@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 XXXXX XXXXX</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>India</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="#" class="social-icon" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://tryhackme.com/p/jayeshlomate" class="social-icon" title="TryHackMe">
+                                    <i class="fas fa-flag"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jayesh Lomate. All rights reserved.</p>
+            <p class="footer-text">
+                <span class="terminal-prompt">root@jayesh:~$</span> 
+                echo "Stay secure, stay vigilant"
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
